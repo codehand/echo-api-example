@@ -35,6 +35,7 @@ First, creating by  command.
 ```
 $ go run main.go
 ```
+Link postman public: https://documenter.getpostman.com/view/1036207/SVSDQXM1?version=latest
 ### Endpoints v1
 
 Each resource has 5 RESTful API endpoints.
