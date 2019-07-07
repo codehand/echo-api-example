@@ -5,3 +5,5 @@ database:
   password: xAqAjCUTY
   debug: true
   port: 27017
+api:
+  token: "example-test"

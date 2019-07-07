@@ -35,18 +35,43 @@ First, creating by  command.
 ```
 $ go run main.go
 ```
-### Endpoints
+### Endpoints v1
 
 Each resource has 5 RESTful API endpoints.
 Resource name is written in the plural form.
 
 |Endpoint|Description|Example (User resource)|
 |--------|-----------|-------|
-|`GET /<resources>`|List items|`GET /products` List products|
-|`POST /<resources>`|Create new item|`POST /products` Create new product|
-|`GET /<resources>/{id}`|Retrieve the item|`GET /products/1` Get the product which ID is 1|
-|`PUT /<resources>/{id}`|Update the item|`PUT /products/1` Update the product which ID is 1|
-|`DELETE /<resources>/{id}`|Delete the item|`DELETE /products/1` Delete the product which ID is 1|
+|`GET /api/v1/<resources>`|List items|`GET /api/v1/products` List products|
+|`POST /api/v1/<resources>`|Create new item|`POST /api/v1/products` Create new product|
+|`GET /api/v1/<resources>/{id}`|Retrieve the item|`GET /api/v1/products/1` Get the product which ID is 1|
+|`PUT /api/v1/<resources>/{id}`|Update the item|`PUT /api/v1/products/1` Update the product which ID is 1|
+|`DELETE /api/v1/<resources>/{id}`|Delete the item|`DELETE /api/v1/products/1` Delete the product which ID is 1|
+
+### Endpoints v2
+
+Version 2 is difference version 1, it must to have token in header such as: 
+Authorization: Bearer example-test
+
+Unless, API return :
+
+    
+        {
+            "message": "missing key in request header"
+        }
+    
+
+Each resource has 5 RESTful API endpoints.
+Resource name is written in the plural form.
+
+|Endpoint|Description|Example (User resource)|
+|--------|-----------|-------|
+|`GET /api/v2/<resources>`|List items|`GET /api/v2/products` List products|
+|`POST /api/v2/<resources>`|Create new item|`POST /api/v2/products` Create new product|
+|`GET /api/v2/<resources>/{id}`|Retrieve the item|`GET /api/v2/products/1` Get the product which ID is 1|
+|`PUT /api/v2/<resources>/{id}`|Update the item|`PUT /api/v2/products/1` Update the product which ID is 1|
+|`DELETE /api/v2/<resources>/{id}`|Delete the item|`DELETE /api/v2/products/1` Delete the product which ID is 1|
+
 
 ### Data Type
 
@@ -57,7 +82,7 @@ API server accepts the form of `JSON` or `Form`.
 `application/json`
 
 ```
-curl -X POST http://localhost:9090/resources \
+curl -X POST http://localhost:9090/api/v1/resources \
      -H "Content-type: application/json" \
      -d '{"field":"value"}'
 ```

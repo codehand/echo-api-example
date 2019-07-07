@@ -16,6 +16,9 @@ type Schema struct {
 		Debug    bool   `mapstructure:"debug"`
 		Port     int    `mapstructure:"port"`
 	} `mapstructure:"database"`
+	API struct {
+		Token string `mapstructure:"token"`
+	} `mapstructure:"api"`
 }
 
 var (
