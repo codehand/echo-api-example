@@ -1,0 +1,8 @@
+language: go
+
+go:
+- "1.11.4"
+- tip # The latest version of Go.
+
+script:
+  - go test -v -race $(go list ./... | grep -v vendor)

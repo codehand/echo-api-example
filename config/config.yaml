@@ -1,0 +1,7 @@
+database:
+  address: "clustersvc-shard-00-00-atvea.gcp.mongodb.net:27017,clustersvc-shard-00-01-atvea.gcp.mongodb.net:27017,clustersvc-shard-00-02-atvea.gcp.mongodb.net:27017"
+  database: example
+  username: codehand
+  password: xAqAjCUTY
+  debug: true
+  port: 27017

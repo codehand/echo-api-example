@@ -1,0 +1,7 @@
+database:
+  address: ""
+  database: example
+  username: 
+  password: 
+  debug: true
+  port: 27017
