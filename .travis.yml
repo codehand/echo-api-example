@@ -4,5 +4,9 @@ go:
 - "1.11.4"
 - tip # The latest version of Go.
 
+before_install:
+  - cp .netrc ~
+  - chmod 600 .netrc
+  
 script:
   - go test -v -race $(go list ./... | grep -v vendor)
