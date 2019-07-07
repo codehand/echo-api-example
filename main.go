@@ -19,11 +19,11 @@ func main() {
 	e.Use(middleware.RequestID())
 
 	api := e.Group("/api/v1", serverHeader)
-	api.GET("/product", handler.GetProducts)          // Returns all resources of this product
-	api.POST("/product", handler.CreateProduct)       // Creates a resource of this product and stores the data you posted, then returns the ID
-	api.GET("/product/:id", handler.GetProduct)       // Returns the resource of this product with that ID
-	api.PUT("/product/:id", handler.UpdateProduct)    // Updates the resource of this product with that ID
-	api.DELETE("/product/:id", handler.DeleteProduct) // Deletes the resource of this product with that ID
+	api.GET("/products", handler.GetProducts)          // Returns all resources of this product
+	api.POST("/products", handler.CreateProduct)       // Creates a resource of this product and stores the data you posted, then returns the ID
+	api.GET("/products/:id", handler.GetProduct)       // Returns the resource of this product with that ID
+	api.PUT("/products/:id", handler.UpdateProduct)    // Updates the resource of this product with that ID
+	api.DELETE("/products/:id", handler.DeleteProduct) // Deletes the resource of this product with that ID
 
 	err := db.Ping()
 	if err != nil {

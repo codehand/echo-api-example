@@ -45,7 +45,7 @@ func TestGetAllProducts(t *testing.T) {
 		req := httptest.NewRequest(echo.GET, "/", nil)
 		res := httptest.NewRecorder()
 		c := e.NewContext(req, res)
-		c.SetPath("/api/v1/product")
+		c.SetPath("/api/v1/products")
 		err := handler.GetProducts(c)
 		if test.isError.HasError() {
 			assert.Error(t, err, test.name)
@@ -132,7 +132,7 @@ func TestGetOneProduct(t *testing.T) {
 		req := httptest.NewRequest(echo.GET, "/", nil)
 		res := httptest.NewRecorder()
 		c := e.NewContext(req, res)
-		c.SetPath("/api/v1/product/:id")
+		c.SetPath("/api/v1/products/:id")
 		c.SetParamNames("id")
 		c.SetParamValues(fmt.Sprintf("%d", test.input))
 		err := handler.GetProduct(c)
@@ -227,7 +227,7 @@ func TestCreateOneProduct(t *testing.T) {
 		req.Header.Set(echo.HeaderContentType, echo.MIMEApplicationJSON)
 		res := httptest.NewRecorder()
 		c := e.NewContext(req, res)
-		c.SetPath("/api/v1/product")
+		c.SetPath("/api/v1/products")
 
 		err := handler.CreateProduct(c)
 		if test.isError.HasError() {
@@ -331,7 +331,7 @@ func TestUpdateOneProduct(t *testing.T) {
 		req.Header.Set(echo.HeaderContentType, echo.MIMEApplicationJSON)
 		res := httptest.NewRecorder()
 		c := e.NewContext(req, res)
-		c.SetPath("/api/v1/product/:id")
+		c.SetPath("/api/v1/products/:id")
 		c.SetParamNames("id")
 		c.SetParamValues(fmt.Sprintf("%d", test.id))
 		err := handler.UpdateProduct(c)

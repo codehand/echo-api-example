@@ -1,27 +1,15 @@
 # exmaple: Golang RESTful API 
 [![Build Status](https://travis-ci.org/codehand/echo-restful-crud-api-example.svg?branch=master)](https://travis-ci.org/codehand/echo-restful-crud-api-example)
 
-apig is an RESTful API server generator.
-
 ## Contents
 
 * [Contents](#contents)
 * [How to build and install](#how-to-build-and-install)
 * [How to use](#how-to-use)
-  + [1. Generate boilerplate](#1-generate-boilerplate)
-  + [2. Write model code](#2-write-model-code)
-  + [3. Generate controllers, tests, documents etc. based on models.](#3-generate-controllers-tests-documents-etc-based-on-models)
-  + [4. Build and run server](#4-build-and-run-server)
-* [Usage](#usage)
-  + [`new` command](#new-command)
-  + [`gen` command](#gen-command)
-  + [API Document](#api-document)
 * [API server specification](#api-server-specification)
   + [Endpoints](#endpoints)
-  + [Available URL parameters](#available-url-parameters)
   + [Data Type](#data-type)
   + [Pagination](#pagination)
-  + [Versioning](#versioning)
 * [License](#license)
 
 ## How to build and install
