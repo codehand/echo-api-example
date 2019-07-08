@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/echo-restful-crud-api-example/db"
-	"github.com/echo-restful-crud-api-example/types"
+	"github.com/codehand/echo-restful-crud-api-example/db"
+	"github.com/codehand/echo-restful-crud-api-example/types"
 	"github.com/labstack/echo"
 	"github.com/labstack/gommon/log"
 )

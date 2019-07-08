@@ -1,6 +1,6 @@
 FROM golang:1.11.4-alpine as builder
-WORKDIR /go/src/github.com/echo-restful-crud-api-example/
-COPY . /go/src/github.com/echo-restful-crud-api-example/
+WORKDIR /go/src/github.com/codehand/echo-restful-crud-api-example/
+COPY . /go/src/github.com/codehand/echo-restful-crud-api-example/
 RUN CGO_ENABLED=0 go build -a -installsuffix cgo -o ./dist/example
 
 FROM alpine:latest
@@ -13,7 +13,7 @@ RUN apk add --no-cache tzdata && \
 WORKDIR /app
 COPY ./config/config.yaml /var/app/
 COPY ./config/config.yaml /
-COPY --from=builder go/src/github.com/echo-restful-crud-api-example/dist/example .
+COPY --from=builder go/src/github.com/codehand/echo-restful-crud-api-example/dist/example .
 
 ENV PORT=9090
 EXPOSE $PORT

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/echo-restful-crud-api-example/types"
+	"github.com/codehand/echo-restful-crud-api-example/types"
 	mgo "gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )

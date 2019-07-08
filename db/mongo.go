@@ -5,7 +5,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/echo-restful-crud-api-example/config"
+	"github.com/codehand/echo-restful-crud-api-example/config"
 	"github.com/labstack/gommon/log"
 	mgo "gopkg.in/mgo.v2"
 )

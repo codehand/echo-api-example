@@ -13,9 +13,9 @@ import (
 	"github.com/labstack/echo/middleware"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/echo-restful-crud-api-example/handler"
-	"github.com/echo-restful-crud-api-example/middlewares"
-	"github.com/echo-restful-crud-api-example/types"
+	"github.com/codehand/echo-restful-crud-api-example/handler"
+	"github.com/codehand/echo-restful-crud-api-example/middlewares"
+	"github.com/codehand/echo-restful-crud-api-example/types"
 )
 
 // TestGetAllProducts is func test get all product - all case

@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/echo-restful-crud-api-example/config"
-	"github.com/echo-restful-crud-api-example/db"
-	"github.com/echo-restful-crud-api-example/handler"
-	"github.com/echo-restful-crud-api-example/middlewares"
+	"github.com/codehand/echo-restful-crud-api-example/config"
+	"github.com/codehand/echo-restful-crud-api-example/db"
+	"github.com/codehand/echo-restful-crud-api-example/handler"
+	"github.com/codehand/echo-restful-crud-api-example/middlewares"
 	"github.com/labstack/echo"
 	"github.com/labstack/echo/middleware"
 	"github.com/sirupsen/logrus"
