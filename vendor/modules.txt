@@ -1,0 +1,89 @@
+# github.com/davecgh/go-spew v1.1.1
+github.com/davecgh/go-spew/spew
+# github.com/dgrijalva/jwt-go v3.2.0+incompatible
+github.com/dgrijalva/jwt-go
+# github.com/fsnotify/fsnotify v1.4.7
+github.com/fsnotify/fsnotify
+# github.com/go-playground/locales v0.12.1
+github.com/go-playground/locales/en
+github.com/go-playground/locales
+github.com/go-playground/locales/currency
+# github.com/go-playground/universal-translator v0.16.0
+github.com/go-playground/universal-translator
+# github.com/hashicorp/hcl v1.0.0
+github.com/hashicorp/hcl
+github.com/hashicorp/hcl/hcl/printer
+github.com/hashicorp/hcl/hcl/ast
+github.com/hashicorp/hcl/hcl/parser
+github.com/hashicorp/hcl/hcl/token
+github.com/hashicorp/hcl/json/parser
+github.com/hashicorp/hcl/hcl/scanner
+github.com/hashicorp/hcl/hcl/strconv
+github.com/hashicorp/hcl/json/scanner
+github.com/hashicorp/hcl/json/token
+# github.com/konsorten/go-windows-terminal-sequences v1.0.2
+github.com/konsorten/go-windows-terminal-sequences
+# github.com/labstack/echo v3.3.10+incompatible
+github.com/labstack/echo
+github.com/labstack/echo/middleware
+# github.com/labstack/gommon v0.2.9
+github.com/labstack/gommon/log
+github.com/labstack/gommon/color
+github.com/labstack/gommon/bytes
+github.com/labstack/gommon/random
+# github.com/leodido/go-urn v1.1.0
+github.com/leodido/go-urn
+# github.com/magiconair/properties v1.8.1
+github.com/magiconair/properties
+# github.com/mattn/go-colorable v0.1.2
+github.com/mattn/go-colorable
+# github.com/mattn/go-isatty v0.0.8
+github.com/mattn/go-isatty
+# github.com/mitchellh/mapstructure v1.1.2
+github.com/mitchellh/mapstructure
+# github.com/pelletier/go-toml v1.4.0
+github.com/pelletier/go-toml
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
+# github.com/sirupsen/logrus v1.4.2
+github.com/sirupsen/logrus
+# github.com/spf13/afero v1.2.2
+github.com/spf13/afero
+github.com/spf13/afero/mem
+# github.com/spf13/cast v1.3.0
+github.com/spf13/cast
+# github.com/spf13/jwalterweatherman v1.1.0
+github.com/spf13/jwalterweatherman
+# github.com/spf13/pflag v1.0.3
+github.com/spf13/pflag
+# github.com/spf13/viper v1.4.0
+github.com/spf13/viper
+# github.com/stretchr/testify v1.3.0
+github.com/stretchr/testify/assert
+# github.com/valyala/bytebufferpool v1.0.0
+github.com/valyala/bytebufferpool
+# github.com/valyala/fasttemplate v1.0.1
+github.com/valyala/fasttemplate
+# golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4
+golang.org/x/crypto/acme/autocert
+golang.org/x/crypto/acme
+# golang.org/x/net v0.0.0-20190628185345-da137c7871d7
+golang.org/x/net/idna
+# golang.org/x/sys v0.0.0-20190626221950-04f50cda93cb
+golang.org/x/sys/unix
+# golang.org/x/text v0.3.2
+golang.org/x/text/transform
+golang.org/x/text/unicode/norm
+golang.org/x/text/secure/bidirule
+golang.org/x/text/unicode/bidi
+# gopkg.in/go-playground/validator.v9 v9.29.0
+gopkg.in/go-playground/validator.v9
+gopkg.in/go-playground/validator.v9/translations/en
+# gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce
+gopkg.in/mgo.v2
+gopkg.in/mgo.v2/bson
+gopkg.in/mgo.v2/internal/sasl
+gopkg.in/mgo.v2/internal/scram
+gopkg.in/mgo.v2/internal/json
+# gopkg.in/yaml.v2 v2.2.2
+gopkg.in/yaml.v2
