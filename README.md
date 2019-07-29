@@ -1,4 +1,4 @@
-# exmaple: Golang RESTful API 
+# example: Golang RESTful API 
 [![Build Status](https://travis-ci.org/codehand/echo-restful-crud-api-example.svg?branch=master)](https://travis-ci.org/codehand/echo-restful-crud-api-example)
 
 ## Contents
